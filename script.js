@@ -54,8 +54,34 @@ const featureProductsSwiper = new Swiper(".featureProducts", {
         clickable: true,
     },
     navigation: {
-        nextEl: ".testimonial-next",
-        prevEl: ".testimonial-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        640: { slidesPerView: 2, spaceBetween: 15 }, // sm
+        768: { slidesPerView: 3, spaceBetween: 20 }, // md
+        1024: { slidesPerView: 5, spaceBetween: 20 } // lg
+    },
+    loop: true,
+    pagination: false, // dots off
+
+});
+
+// trending Products Swiper
+const trendingProducts = new Swiper(".trendingProducts", {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+    },
+    pagination: {
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
     breakpoints: {
         640: { slidesPerView: 2, spaceBetween: 15 }, // sm
@@ -70,23 +96,36 @@ const featureProductsSwiper = new Swiper(".featureProducts", {
 
 const menuBtn = document.getElementById('menuBtn');
 const sidebar = document.getElementById('sidebar');
-const overlay = document.getElementById('overlay');
 const closeBtn = document.getElementById('closeBtn');
 
-// Open sidebar
-menuBtn.addEventListener('click', () => {
+const filterBtn = document.getElementById('filterBtn');
+const mobileFilter = document.getElementById('mobileFilter');
+const closeFilter = document.getElementById('closeFilter');
+
+const overlay = document.getElementById('overlay');
+
+// -------------------- Open --------------------
+menuBtn?.addEventListener('click', () => {
     sidebar.classList.remove('-translate-x-full');
     overlay.classList.remove('hidden');
 });
 
-// Close sidebar
-const closeSidebar = () => {
-    sidebar.classList.add('-translate-x-full');
+filterBtn?.addEventListener('click', () => {
+    mobileFilter.classList.remove('-translate-x-full');
+    overlay.classList.remove('hidden');
+});
+
+// -------------------- Close Function --------------------
+const closeAll = () => {
+    sidebar?.classList.add('-translate-x-full');
+    mobileFilter?.classList.add('-translate-x-full');
     overlay.classList.add('hidden');
 };
 
-closeBtn.addEventListener('click', closeSidebar);
-overlay.addEventListener('click', closeSidebar);
+closeBtn?.addEventListener('click', closeAll);
+closeFilter?.addEventListener('click', closeAll);
+overlay?.addEventListener('click', closeAll);
+
 
 // Accordion style submenu toggle
 document.querySelectorAll('.submenu-toggle').forEach(btn => {
