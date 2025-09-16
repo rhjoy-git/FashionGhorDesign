@@ -160,625 +160,625 @@ const products = [
         productId: 1,
         title: "iPhone 15 Pro Max",
         shortDetails: "The latest smartphone with a powerful A17 Bionic chip and a pro-level camera system.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 2,
         title: "Samsung Galaxy S23",
         shortDetails: "A flagship Android phone known for its vibrant display and versatile camera.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 3,
         title: "Sony Headphones",
         shortDetails: "High-quality headphones offering industry-leading noise cancellation and superb audio.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 4,
         title: "Dell XPS Laptop",
         shortDetails: "A powerful and sleek laptop perfect for productivity and creative tasks.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 5,
         title: "Nike Air Max Shoes",
         shortDetails: "Comfortable and stylish athletic shoes with iconic Air Max cushioning.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 6,
         title: "Apple Watch Series 9",
         shortDetails: "A top-tier smartwatch for health tracking, notifications, and more.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 7,
         title: "Google Pixel 8 Pro",
         shortDetails: "A smartphone with a fantastic camera and seamless integration with Google services.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 8,
         title: "Microsoft Surface Laptop",
         shortDetails: "A lightweight and elegant laptop designed for everyday use and portability.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 9,
         title: "Bose QuietComfort Earbuds",
         shortDetails: "Compact earbuds delivering excellent sound and powerful noise cancellation.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 10,
         title: "iPad Air",
         shortDetails: "A versatile tablet perfect for work, school, and entertainment.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 11,
         title: "MacBook Air M2",
         shortDetails: "An ultra-thin and lightweight laptop with the powerful Apple M2 chip.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 12,
         title: "Canon EOS R5",
         shortDetails: "A professional-grade mirrorless camera for photography and filmmaking.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 13,
         title: "Dyson V11 Cordless Vacuum",
         shortDetails: "A powerful and convenient cordless vacuum for quick and easy cleaning.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 14,
         title: "Samsung 65-inch 4K TV",
         shortDetails: "A large-screen TV with stunning 4K resolution for an immersive viewing experience.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 15,
         title: "LG OLED C2 TV",
         shortDetails: "An OLED television with perfect blacks and infinite contrast.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 16,
         title: "Fitbit Sense 2",
         shortDetails: "A smartwatch focused on advanced health and wellness tracking.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 17,
         title: "GoPro HERO11 Black",
         shortDetails: "A durable action camera for capturing high-quality video in any environment.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 18,
         title: "Nintendo Switch OLED",
         shortDetails: "A portable gaming console with a vibrant OLED screen.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 19,
         title: "Sony PlayStation 5",
         shortDetails: "The next-generation gaming console with lightning-fast loading and immersive graphics.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 20,
         title: "Xbox Series X",
         shortDetails: "A powerful gaming console offering incredible performance and a vast game library.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 21,
         title: "Kindle Paperwhite",
         shortDetails: "A popular e-reader with a glare-free display and built-in adjustable light.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 22,
         title: "Anker PowerCore",
         shortDetails: "A portable power bank to keep your devices charged on the go.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 23,
         title: "JBL Flip 6 Speaker",
         shortDetails: "A compact and durable portable Bluetooth speaker with great sound.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 24,
         title: "Logitech MX Master 3S",
         shortDetails: "An advanced ergonomic mouse for enhanced productivity and comfort.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 25,
         title: "Apple AirTag",
         shortDetails: "A small device to help you keep track of your belongings.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 26,
         title: "Ring Video Doorbell",
         shortDetails: "A smart doorbell that lets you see, hear, and speak to visitors from anywhere.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 27,
         title: "Google Nest Hub",
         shortDetails: "A smart display that helps manage your smart home and provides quick information.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 28,
         title: "Arlo Pro 4 Camera",
         shortDetails: "A wire-free security camera with 2K HDR video.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 29,
         title: "Philips Hue Lightstrip",
         shortDetails: "A flexible smart light strip to add dynamic color to any room.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 30,
         title: "Roku Streaming Stick",
         shortDetails: "A simple device to stream movies and shows to your TV.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 31,
         title: "Samsung Bespoke Refrigerator",
         shortDetails: "A customizable refrigerator that blends style and function.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 32,
         title: "LG WashTower",
         shortDetails: "A sleek, single-unit washer and dryer for modern homes.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 33,
         title: "iRobot Roomba",
         shortDetails: "A robotic vacuum that cleans your floors automatically.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 34,
         title: "KitchenAid Mixer",
         shortDetails: "A classic stand mixer for baking and cooking enthusiasts.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 35,
         title: "Keurig K-Elite Coffee Maker",
         shortDetails: "A single-serve coffee maker for a quick and easy cup of coffee.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 36,
         title: "Vitamix Blender",
         shortDetails: "A high-performance blender for smoothies, soups, and more.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 37,
         title: "Le Creuset Dutch Oven",
         shortDetails: "A durable cast-iron pot for slow cooking and braising.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 38,
         title: "Ooni Koda Pizza Oven",
         shortDetails: "A portable pizza oven that cooks authentic Neapolitan-style pizza in minutes.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 39,
         title: "Hydro Flask Water Bottle",
         shortDetails: "A durable, insulated water bottle to keep drinks cold or hot.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 40,
         title: "Away Carry-On Luggage",
         shortDetails: "A lightweight and durable suitcase with smart features for travel.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 41,
         title: "Sonos Roam Speaker",
         shortDetails: "A compact smart speaker for portable listening at home or on the go.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 42,
         title: "DJI Mini 3 Pro Drone",
         shortDetails: "A compact drone with a professional-grade camera for aerial photography.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 43,
         title: "Garmin Fenix 7 Watch",
         shortDetails: "A rugged, high-end smartwatch for athletes and outdoor adventurers.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 44,
         title: "Peloton Bike+",
         shortDetails: "An interactive stationary bike for at-home cycling classes.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 45,
         title: "Ember Smart Mug",
         shortDetails: "A temperature-controlled mug to keep your drink warm.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 46,
         title: "Theragun Pro",
         shortDetails: "A professional-grade massage gun for deep muscle treatment.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 47,
         title: "Casper Original Mattress",
         shortDetails: "A supportive foam mattress designed for all-night comfort.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 48,
         title: "Tuft & Needle Pillow",
         shortDetails: "A comfortable and breathable pillow for a better night's sleep.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 49,
         title: "Parachute Waffle Robe",
         shortDetails: "A cozy and soft robe for luxurious comfort.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 50,
         title: "Brooklinen Core Sheets",
         shortDetails: "High-quality, durable sheets for a comfortable sleep.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 51,
         title: "Instant Pot Duo",
         shortDetails: "A multi-cooker that functions as a pressure cooker, slow cooker, and more.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 52,
         title: "Samsung Freestyle Projector",
         shortDetails: "A portable projector for an on-the-go cinematic experience.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 53,
         title: "Amazon Echo Dot",
         shortDetails: "A compact smart speaker with Alexa voice assistant.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 54,
         title: "Google Nest Thermostat",
         shortDetails: "A smart thermostat that helps you save energy and stay comfortable.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 55,
         title: "Wyze Cam v3",
         shortDetails: "An affordable security camera for indoor and outdoor use.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 56,
         title: "August Smart Lock",
         shortDetails: "A smart lock that allows you to control your door from your phone.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 57,
         title: "TP-Link Kasa Smart Plug",
         shortDetails: "A smart plug to control your home appliances remotely.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 58,
         title: "Eero Pro 6 Mesh Wi-Fi",
         shortDetails: "A mesh Wi-Fi system that provides fast and reliable internet coverage.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 59,
         title: "Nestle Nespresso Machine",
         shortDetails: "A coffee machine that makes espresso and coffee at the touch of a button.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 60,
         title: "Ninja Foodi Air Fryer",
         shortDetails: "A versatile kitchen appliance that air fries, roasts, bakes, and dehydrates.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 61,
         title: "All-Clad Cookware Set",
         shortDetails: "A set of durable stainless steel cookware for professional-level cooking.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 62,
         title: "Shun Classic Chef's Knife",
         shortDetails: "A high-quality Japanese chef's knife for precision cutting.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 63,
         title: "Weber Spirit Grill",
         shortDetails: "A reliable gas grill perfect for backyard barbecues.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 64,
         title: "Solo Stove Bonfire",
         shortDetails: "A portable, smokeless fire pit for outdoor gatherings.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 65,
         title: "Yeti Tundra Cooler",
         shortDetails: "A heavy-duty cooler that keeps ice for days.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 66,
         title: "Oculus Quest 2",
         shortDetails: "A standalone virtual reality headset for immersive gaming.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 67,
         title: "Sonos Arc Soundbar",
         shortDetails: "A premium soundbar that provides a powerful home theater experience.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 68,
         title: "Samsung The Frame TV",
         shortDetails: "A television that transforms into a piece of art when not in use.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 69,
         title: "Apple HomePod mini",
         shortDetails: "A small but mighty smart speaker with a rich 360-degree audio.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 70,
         title: "Google Chromecast",
         shortDetails: "A streaming device to cast content from your phone or laptop to your TV.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 71,
         title: "Razer Blade 15 Gaming Laptop",
         shortDetails: "A high-performance gaming laptop with a sleek design.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 72,
         title: "SteelSeries Arctis Headset",
         shortDetails: "A comfortable and lightweight gaming headset with clear audio.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 73,
         title: "Logitech G Pro Mouse",
         shortDetails: "A high-precision gaming mouse for competitive play.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 74,
         title: "Corsair K95 Keyboard",
         shortDetails: "A mechanical gaming keyboard with customizable backlighting.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 75,
         title: "Herman Miller Aeron Chair",
         shortDetails: "An iconic ergonomic office chair for superior comfort and support.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 76,
         title: "Lululemon Align Leggings",
         shortDetails: "Yoga leggings known for their buttery-soft feel and comfortable fit.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 77,
         title: "Allbirds Wool Runners",
         shortDetails: "Eco-friendly shoes made from merino wool for comfort and sustainability.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 78,
         title: "Ray-Ban Aviator Sunglasses",
         shortDetails: "A timeless classic of a sunglass design.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 79,
         title: "TUMI Alpha Luggage",
         shortDetails: "Premium luggage known for its durability and functional design.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 80,
         title: "Patagonia Better Sweater Fleece",
         shortDetails: "A warm and cozy fleece jacket perfect for layering.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 81,
         title: "Levi's 501 Jeans",
         shortDetails: "The original straight-fit jeans that have defined style for generations.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 82,
         title: "Columbia PFG Shirt",
         shortDetails: "A lightweight, breathable shirt designed for fishing and outdoor activities.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 83,
         title: "Adidas Ultraboost Shoes",
         shortDetails: "Running shoes offering a responsive and comfortable ride.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 84,
         title: "FitFlop Sandals",
         shortDetails: "Ergonomically designed sandals for comfortable walking.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 85,
         title: "Seiko Prospex Watch",
         shortDetails: "A durable and reliable watch for professional and recreational use.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 86,
         title: "Citizen Eco-Drive Watch",
         shortDetails: "A watch powered by any light, so it never needs a battery.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 87,
         title: "Garmin Approach S62 Watch",
         shortDetails: "A premium GPS golf watch with a vibrant display and advanced features.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 88,
         title: "Apple AirPods Max",
         shortDetails: "High-fidelity wireless headphones with a premium design and great sound.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 89,
         title: "Beats Studio Buds",
         shortDetails: "Compact, noise-canceling earbuds for on-the-go listening.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 90,
         title: "Sennheiser HD 660S Headphones",
         shortDetails: "Audiophile-grade open-back headphones for a natural and clear sound.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 91,
         title: "Shure SM7B Microphone",
         shortDetails: "A legendary microphone for broadcast, podcasting, and vocal recording.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 92,
         title: "Blue Yeti USB Microphone",
         shortDetails: "A popular and versatile USB microphone for podcasting, streaming, and music.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 93,
         title: "Elgato Stream Deck",
         shortDetails: "A customizable control panel for streamers and content creators.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 94,
         title: "Logitech C920 Webcam",
         shortDetails: "A reliable and popular webcam for video calls and streaming.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 95,
         title: "Fujifilm Instax Mini Camera",
         shortDetails: "An instant film camera that prints photos on the spot.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 96,
         title: "Epson EcoTank Printer",
         shortDetails: "A cartridge-free printer with high-capacity ink tanks.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 97,
         title: "Canon Pixma Printer",
         shortDetails: "A versatile all-in-one printer for home and office use.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 98,
         title: "Brother MFC Laser Printer",
         shortDetails: "A fast and efficient laser printer for sharp text documents.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 99,
         title: "Shark Robot Vacuum",
         shortDetails: "A robotic vacuum with powerful suction and self-cleaning capabilities.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 100,
         title: "Bissell CrossWave",
         shortDetails: "A multi-surface floor cleaner that vacuums and washes at the same time.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 101,
         title: "Dyson Air Purifier",
         shortDetails: "An air purifier that captures ultrafine particles and cools you with purified air.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 102,
         title: "Levoit Air Purifier",
         shortDetails: "An efficient air purifier with a three-stage filtration system.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 103,
         title: "Aura Air Purifier",
         shortDetails: "A smart air purifier with a state-of-the-art filtration system.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     },
     {
         productId: 104,
         title: "Thermos Insulated Bottle",
         shortDetails: "A vacuum-insulated bottle that keeps drinks hot or cold for hours.",
-        img: "asset/dummy-watch.png"
+        img: "assets/dummy-watch.png"
     }
 ];
 
@@ -848,13 +848,13 @@ function numberOfCartItems(itemNumber) {
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.cart-btn[data-in-cart="true"]').forEach(btn => {
         renderCartButton(btn);
-        cartValue++;
+        cartValue++;        
     });
     cartValue += cartData.length;
     numberOfCartItems(cartValue);
-
-    const container = document.getElementById('notification-container');
-    if (!container) {
+    
+    const notificationContainer = document.getElementById('notification-container');
+    if (!notificationContainer) {
         console.warn('No #notification-container found for notifications.');
         return;
     }
@@ -918,7 +918,7 @@ document.addEventListener('DOMContentLoaded', () => {
       </button>
     `;
 
-        container.appendChild(wrapper);
+        notificationContainer.appendChild(wrapper);
 
         // show with animation on next frame
         requestAnimationFrame(() => wrapper.classList.add('show'));
@@ -986,8 +986,9 @@ document.querySelectorAll('.cart-btn').forEach(btn => {
             cartValue += 1;
             cartNumber.forEach(el => {
                 el.textContent = cartValue;
-            });
+            });            
         }
+        toggleDrawer();
     });
 });
 
@@ -1054,12 +1055,12 @@ cartOverlay.addEventListener('click', closeDrawer);
 
 // --- Static cart data ---
 let cartData = [
-    { id: 1, name: "Oppo A3 6GB RAM", price: 1148, image: "asset/spro1.png", qty: 1 },
-    { id: 2, name: "Oppo Reno14F 5G", price: 1350, image: "asset/spro2.png", qty: 2 },
-    { id: 3, name: "Oppo Reno14F 5G", price: 1350, image: "asset/spro3.png", qty: 4 },
-    { id: 4, name: "Oppo Reno14F 5G", price: 1350, image: "asset/spro4.png", qty: 1 },
-    { id: 5, name: "Oppo Reno14F 5G", price: 1350, image: "asset/spro5.png", qty: 6 },
-    { id: 6, name: "Oppo Reno14F 5G", price: 1350, image: "asset/spro6.png", qty: 7 },
+    { id: 1, name: "Oppo A3 6GB RAM", price: 1148, image: "assets/spro1.png", qty: 1 },
+    { id: 2, name: "Oppo Reno14F 5G", price: 1350, image: "assets/spro2.png", qty: 2 },
+    { id: 3, name: "Oppo Reno14F 5G", price: 1350, image: "assets/spro3.png", qty: 4 },
+    { id: 4, name: "Oppo Reno14F 5G", price: 1350, image: "assets/spro4.png", qty: 1 },
+    { id: 5, name: "Oppo Reno14F 5G", price: 1350, image: "assets/spro5.png", qty: 6 },
+    { id: 6, name: "Oppo Reno14F 5G", price: 1350, image: "assets/spro6.png", qty: 7 },
 ];
 
 // Open drawer
