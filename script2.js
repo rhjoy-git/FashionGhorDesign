@@ -200,7 +200,7 @@ document.querySelectorAll('.cart-btn').forEach(btn => {
             cartNumber.forEach(el => {
                 el.textContent = cartValue;
             });
-        }   
+        }
     });
 });
 
@@ -248,25 +248,16 @@ function resetCartButton(btn) {
     btn.textContent = "Add to Cart";
 
     // Show notification
-    showNotification(`Product Remove from Cart`, 'warning');    
+    showNotification(`Product Remove from Cart`, 'warning');
 }
 
 
 // Dummy Products
-const products = [{
-    id: 1,
-    name: "USDA Organic Beetroot...",
-    price: 25.00,
-    image: "assets/pro2.png",
-    qty: 1
-},
-{
-    id: 2,
-    name: "Natural Honey Glass Jar",
-    price: 20.00,
-    image: "assets/pro1.png",
-    qty: 2
-},
+const products = [
+    { id: 1, name: "USDA Organic Beetroot Powder", price: 25.00, image: "assets/pro2.png", qty: 9 },
+    { id: 2, name: "Natural Honey Glass Jar", price: 20.00, image: "assets/pro1.png", qty: 3 },
+    { id: 3, name: "Wildflower Raw Honey", price: 18.00, image: "assets/pro3.png", qty: 1 },
+    { id: 4, name: "Bee Pollen Organic", price: 15.00, image: "assets/pro4.png", qty: 2 },
 ];
 
 const cartDrawer = document.getElementById("cartDrawer");
@@ -342,4 +333,58 @@ function renderCart() {
 
     cartTotal.textContent = total.toFixed(2);
 }
+
+// =================== Search Products ===========================
+const searchInput = document.getElementById("searchInput");
+const searchSuggestions = document.getElementById("searchSuggestions");
+const suggestionGrid = document.getElementById("suggestionGrid");
+
+searchInput.addEventListener("input", () => {
+    const query = searchInput.value.toLowerCase().trim();
+    suggestionGrid.innerHTML = "";
+
+    if (query.length === 0) {
+        searchSuggestions.classList.add("hidden");
+        return;
+    }
+
+    let filtered = products.filter(p => p.name.toLowerCase().includes(query));
+
+    // Max 10 results
+    filtered = filtered.slice(0, 10);
+
+    if (filtered.length === 0) {
+        suggestionGrid.innerHTML = `<p class="col-span-full p-3 text-gray-500 text-sm">No products found</p>`;
+    } else {
+        filtered.forEach(p => {
+            const item = document.createElement("div");
+            item.className = "border rounded-md p-3 hover:shadow-md transition cursor-pointer";
+
+            item.innerHTML = `
+                <img src="${p.image}" class="w-full h-28 object-cover rounded mb-2" />
+                <p class="text-sm font-medium truncate">${p.name}</p>
+                <p class="text-xs text-gray-500">$${p.price.toFixed(2)}</p>
+            `;
+
+            // Example: click redirect to product
+            item.addEventListener("click", () => {
+                alert("Clicked on: " + p.name);
+                searchSuggestions.classList.add("hidden");
+                searchInput.value = "";
+            });
+
+            suggestionGrid.appendChild(item);
+        });
+    }
+
+    searchSuggestions.classList.remove("hidden");
+});
+
+// Hide suggestion if clicked outside
+document.addEventListener("click", (e) => {
+    if (!searchInput.contains(e.target) && !searchSuggestions.contains(e.target)) {
+        searchSuggestions.classList.add("hidden");
+    }
+});
+
 

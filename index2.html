@@ -393,7 +393,7 @@
                 <!-- Search Bar -->
                 <div class="flex-1 px-4 ">
                     <div class="flex justify-center">
-                        <input type="text" placeholder="Search products..."
+                        <input type="text" placeholder="Search products..." id="searchInput"
                             class="text-center w-full md:w-1/2 border border-gray-300 rounded-md py-2 px-5 focus:outline-none focus:ring-2 focus:ring-primary" />
                     </div>
                 </div>
@@ -456,7 +456,14 @@
             </div>
 
             <!-- Suggestion Results -->
-            <div id="searchSuggestions"></div>
+            <div id="searchSuggestions" class="px-4 md:px-12 py-4 hidden">
+                <h2>Search Results: </h2>
+                <div id="suggestionGrid" class="grid grid-cols-2 sm:grid-cols-5 md:grid-cols-6 gap-4 bg-white max-h-80 overflow-y-auto p-3">
+                    
+                </div>
+            </div>
+
+
         </div>
 
     </div>
@@ -625,6 +632,106 @@
                     </div>
                 </div>
 
+                <!-- Product Card -->
+                <div class="bg-white shadow rounded-lg overflow-hidden flex flex-col max-h-[420px] min-h-[360px]">
+                    <a href="#" class="block">
+                        <!-- Image full width/height -->
+                        <img src="assets/pro2.png" alt="Product 1"
+                            class="w-full h-48 md:h-56 object-cover hover:scale-105 transition-transform duration-300">
+                        <h3 class="mt-2 px-3 text-sm font-medium truncate">
+                            USDA Organic Beetroot Juice Powder
+                        </h3>
+                    </a>
+                    <div class="px-3 py-2 flex-1 flex flex-col justify-between">
+                        <p class="text-gray-800 font-semibold text-center">$25.00</p>
+                        <button
+                            class="add-to-cart cart-btn bg-primary text-white text-sm font-medium py-2 px-4 rounded hover:opacity-90"
+                            data-id="1">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card -->
+                <div class="bg-white shadow rounded-lg overflow-hidden flex flex-col max-h-[420px] min-h-[360px]">
+                    <a href="#" class="block">
+                        <!-- Image full width/height -->
+                        <img src="assets/pro4.png" alt="Product 1"
+                            class="w-full h-48 md:h-56 object-cover hover:scale-105 transition-transform duration-300">
+                        <h3 class="mt-2 px-3 text-sm font-medium truncate">
+                            USDA Organic Beetroot Juice Powder
+                        </h3>
+                    </a>
+                    <div class="px-3 py-2 flex-1 flex flex-col justify-between">
+                        <p class="text-gray-800 font-semibold text-center">$25.00</p>
+                        <button
+                            class="add-to-cart cart-btn bg-primary text-white text-sm font-medium py-2 px-4 rounded hover:opacity-90"
+                            data-qty="2">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card -->
+                <div class="bg-white shadow rounded-lg overflow-hidden flex flex-col max-h-[420px] min-h-[360px]">
+                    <a href="#" class="block">
+                        <!-- Image full width/height -->
+                        <img src="assets/pro1.png" alt="Product 1"
+                            class="w-full h-48 md:h-56 object-cover hover:scale-105 transition-transform duration-300">
+                        <h3 class="mt-2 px-3 text-sm font-medium truncate">
+                            USDA Organic Beetroot Juice Powder
+                        </h3>
+                    </a>
+                    <div class="px-3 py-2 flex-1 flex flex-col justify-between">
+                        <p class="text-gray-800 font-semibold text-center">$25.00</p>
+                        <button
+                            class="add-to-cart cart-btn bg-primary text-white text-sm font-medium py-2 px-4 rounded hover:opacity-90"
+                            data-id="3">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card -->
+                <div class="bg-white shadow rounded-lg overflow-hidden flex flex-col max-h-[420px] min-h-[360px]">
+                    <a href="#" class="block">
+                        <!-- Image full width/height -->
+                        <img src="assets/pro3.png" alt="Product 1"
+                            class="w-full h-48 md:h-56 object-cover hover:scale-105 transition-transform duration-300">
+                        <h3 class="mt-2 px-3 text-sm font-medium truncate">
+                            USDA Organic Beetroot Juice Powder
+                        </h3>
+                    </a>
+                    <div class="px-3 py-2 flex-1 flex flex-col justify-between">
+                        <p class="text-gray-800 font-semibold text-center">$25.00</p>
+                        <button
+                            class="add-to-cart cart-btn bg-primary text-white text-sm font-medium py-2 px-4 rounded hover:opacity-90"
+                            data-id="2">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Card -->
+                <div class="bg-white shadow rounded-lg overflow-hidden flex flex-col max-h-[420px] min-h-[360px]">
+                    <a href="#" class="block">
+                        <!-- Image full width/height -->
+                        <img src="assets/spro1.png" alt="Product 1"
+                            class="w-full h-48 md:h-56 object-cover hover:scale-105 transition-transform duration-300">
+                        <h3 class="mt-2 px-3 text-sm font-medium truncate">
+                            USDA Organic Beetroot Juice Powder
+                        </h3>
+                    </a>
+                    <div class="px-3 py-2 flex-1 flex flex-col justify-between">
+                        <p class="text-gray-800 font-semibold text-center">$25.00</p>
+                        <button
+                            class="add-to-cart cart-btn bg-primary text-white text-sm font-medium py-2 px-4 rounded hover:opacity-90"
+                            data-id="5" data-in-cart="true" data-qty="6">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -635,7 +742,7 @@
         <!-- Header -->
         <div class="flex justify-between items-center p-4 border-b">
             <h2 class="text-lg font-bold">Your Cart</h2>
-            <button id="closeCart" class="text-gray-500 hover:text-gray-700">✕</button>
+            <button id="closeCart" class="text-gray-900 hover:text-black">Close (✕)</button>
         </div>
         <!-- Notification Container -->
         <div class="px-4 py-2" id="notification-container"></div>
@@ -694,7 +801,7 @@
     <footer class="bg-white pt-10 mt-12">
         <div class="mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Brand -->
-            <div>
+            <div class="md:pr-3">
                 <a href="index2.html" class="block">
                     <img src="//ghorerbazar.com/cdn/shop/files/logo.webp?v=1707766182" alt="Ghorer Bazar"
                         class="h-12 object-contain" />
@@ -712,11 +819,11 @@
             <div>
                 <h4 class="text-lg font-semibold text-primary mb-3">Quick Links</h4>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="#" class="hover:text-primary">Home</a></li>
-                    <li><a href="#" class="hover:text-primary">Shop</a></li>
-                    <li><a href="#" class="hover:text-primary">Collections</a></li>
-                    <li><a href="#" class="hover:text-primary">About Us</a></li>
-                    <li><a href="#" class="hover:text-primary">Contact</a></li>
+                    <li><a href="#" class="hover:text-primary hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:text-primary hover:underline">Shop</a></li>
+                    <li><a href="#" class="hover:text-primary hover:underline">Collections</a></li>
+                    <li><a href="#" class="hover:text-primary hover:underline">About Us</a></li>
+                    <li><a href="#" class="hover:text-primary hover:underline">Contact</a></li>
                 </ul>
             </div>
 
@@ -724,11 +831,11 @@
             <div>
                 <h4 class="text-lg font-semibold text-primary mb-3">Get in Touch</h4>
                 <ul class="space-y-2 text-sm">
-                    <li>Email: support@ghorerbazar.com</li>
-                    <li>Phone: +880 1234-567890</li>
-                    <li>Address: Dhaka, Bangladesh</li>
+                    <li>Email: <a href="mailto:support@ghorerbazar.com" class="hover:text-primary hover:underline">support@ghorerbazar.com</a></li>
+                    <li>Phone: <a href="tel:+8801234567890" class="hover:text-primary hover:underline">+880 1234-567890</a></li>
+                    <li>Address: <a href="https://maps.app.goo.gl/nF3exfNCC3Mnm3cS6" class="hover:text-primary hover:underline" target="_blank">Dhaka, Bangladesh</a></li>
                 </ul>
-                <div class="flex space-x-4 mt-4">
+                <div class="flex flex-wrap space-x-4 justify-center md:justify-start mt-4">
                     <a href="#" class="flex items-center hover:text-primary transition-colors">
                         <!-- Facebook Icon -->
                         <svg class="w-5 h-5 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"

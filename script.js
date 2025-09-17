@@ -1048,10 +1048,10 @@ const cartIcons = document.querySelectorAll('.cartBtn');
 const cartDrawer = document.getElementById('cartDrawer');
 const closeCart = document.getElementById('closeCart');
 const cartItems = document.getElementById('cartItems');
-const cartOverlay = document.getElementById('cartOverlay');
+// const cartOverlay = document.getElementById('cartOverlay');
 
 closeCart.addEventListener('click', closeDrawer);
-cartOverlay.addEventListener('click', closeDrawer);
+// cartOverlay.addEventListener('click', closeDrawer);
 
 // --- Static cart data ---
 let cartData = [
@@ -1075,12 +1075,12 @@ function toggleDrawer() {
     if (isOpen) {
         // Close
         cartDrawer.classList.add('translate-x-full');
-        cartOverlay.classList.add('hidden');
+        // cartOverlay.classList.add('hidden');
         document.body.classList.remove('overflow-hidden');
     } else {
         // Open
         cartDrawer.classList.remove('translate-x-full');
-        cartOverlay.classList.remove('hidden');
+        // cartOverlay.classList.remove('hidden');
         document.body.classList.add('overflow-hidden');
     }
 }
@@ -1088,7 +1088,7 @@ function toggleDrawer() {
 // Close drawer (X button or overlay click)
 function closeDrawer() {
     cartDrawer.classList.add('translate-x-full');
-    cartOverlay.classList.add('hidden');
+    // cartOverlay.classList.add('hidden');
     document.body.classList.remove('overflow-hidden');
 }
 

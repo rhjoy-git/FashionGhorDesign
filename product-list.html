@@ -94,7 +94,7 @@
 
 <body class="bg-gray-200 min-h-screen ">
     <!-- Overlay -->
-    <div id="cartOverlay" class="fixed inset-0 bg-black bg-opacity-50 hidden z-40"></div>
+    <!-- <div id="cartOverlay" class="fixed inset-0 bg-black bg-opacity-50 hidden z-40"></div> -->
 
     <!-- Notification Container -->
     <div class="fixed md:top-16 top-32 md:right-4 right-0 z-50 max-w-sm w-full space-y-3" id="notification-container">
@@ -106,7 +106,8 @@
         <!-- Header -->
         <div class="p-4 flex justify-between items-center border-b">
             <h2 class="text-lg font-semibold">Shopping Cart</h2>
-            <button id="closeCart" class="text-gray-500 hover:text-black text-2xl leading-none">&times;</button>
+            <button id="closeCart" class="text-gray-900 hover:text-black text-base leading-none">Close
+                (&times;)</button>
         </div>
 
         <!-- Items (scrollable) -->
@@ -627,14 +628,6 @@
                     <span id="maxPrice">Tk 50,000</span>
                 </div>
             </div>
-            <!-- <div class="mb-4">
-                <h3 class="font-medium mb-2">Price</h3>
-                <input type="range" min="0" max="50000" value="15000" class="w-full">
-                <div class="flex justify-between text-sm text-gray-600">
-                    <span>Tk 0</span>
-                    <span>Tk 50,000</span>
-                </div>
-            </div> -->
 
             <!-- Brand Filter -->
             <div class="mb-4">
@@ -1469,10 +1462,11 @@
             <!-- Price Filter (Static) -->
             <div class="mb-4">
                 <h3 class="font-medium mb-2">Price</h3>
-                <input type="range" min="0" max="50000" value="15000" class="w-full">
+                <input id="priceRangeMobile" type="range" min="0" max="50000" value="15000" class="w-full">
                 <div class="flex justify-between text-sm text-gray-600">
-                    <span>Tk 0</span>
-                    <span>Tk 50,000</span>
+                    <span id="minPriceMobile">Tk 0</span>
+                    <span id="currentPriceMobile" class="font-semibold text-blue-600">Tk 15,000</span>
+                    <span id="maxPriceMobile">Tk 50,000</span>
                 </div>
             </div>
 
@@ -2259,11 +2253,16 @@
         });
 
         const priceRange = document.getElementById("priceRange");
+        const priceRangeMobile = document.getElementById("priceRangeMobile");
         const currentPrice = document.getElementById("currentPrice");
+        const currentPriceMobile = document.getElementById("currentPriceMobile");
 
         // Update value dynamically
         priceRange.addEventListener("input", () => {
             currentPrice.textContent = "Tk " + parseInt(priceRange.value).toLocaleString();
+        });
+        priceRangeMobile.addEventListener("input", () => {
+            currentPriceMobile.textContent = "Tk " + parseInt(priceRangeMobile.value).toLocaleString();
         });
     </script>
 
