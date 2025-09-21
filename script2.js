@@ -209,13 +209,13 @@ function renderCartButton(btn) {
 
     // Keep button consistent size
     btn.className =
-        "add-to-cart cart-btn mt-auto w-full bg-green-600 text-white h-9 font-medium rounded-md flex items-center justify-between";
+        "add-to-cart cart-btn mt-auto w-full bg-green-600 text-white h-9 font-medium rounded-md flex items-center justify-between ";
 
     btn.innerHTML = `
     <button class="decrease bg-green-700 hover:bg-green-800 w-7 h-9 flex items-center justify-center text-xl rounded-md">−</button>
     
-    <span class="flex items-center gap-2 text-sm">
-      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <span class="flex items-center gap-2 md:text-sm text-xs truncate">
+      <svg class="w-5 h-5 hidden sm:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
           d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
       </svg>
@@ -299,7 +299,7 @@ function renderCart() {
 
         item.innerHTML = `
                                 <img src="${p.image}" class="w-16 h-16 object-cover rounded">
-                                <div class="flex-1">
+                                <div class="flex-1 truncate">
                                 <h4 class="text-sm font-medium truncate">${p.name}</h4>
                                 <p class="text-gray-600 text-sm">$${p.price.toFixed(2)}</p>
                                 <div class="flex items-center mt-1">

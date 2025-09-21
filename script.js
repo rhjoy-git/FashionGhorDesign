@@ -1002,8 +1002,8 @@ function renderCartButton(btn) {
     btn.innerHTML = `
     <button class="decrease bg-green-700 hover:bg-green-800 w-10 h-10 flex items-center justify-center text-xl rounded-bl-md">−</button>
     
-    <span class="flex items-center gap-2 text-sm">
-      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <span class="flex items-center gap-2 text-sm truncate">
+      <svg class="w-5 h-5 sm:block hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
           d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
       </svg>
@@ -1098,7 +1098,7 @@ function renderCartItem(product) {
     div.className = "flex items-center justify-between border-b pb-2";
 
     div.innerHTML = `
-      <div class="flex items-center space-x-3">
+      <div class="flex items-center space-x-3 truncate">
         <img src="${product.image}" alt="${product.name}" class="w-12 h-12 object-cover rounded">
         <div>
           <p class="font-medium text-sm">${product.name}</p>
